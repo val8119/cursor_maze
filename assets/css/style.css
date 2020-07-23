@@ -22,3 +22,22 @@ body {
     border-style: solid;
 }
 
+/* VV WALLS VV */
+.maze-walls div {
+    position: absolute;
+}
+
+.wall1 {
+    background-color: black;
+    width: 3px;
+    height: 100px;
+    left: 10%;
+}
+
+.wall2 {
+    background-color: black;
+    width: 100px;
+    height: 3px;
+    top: 20%;
+    left: 10%;
+}
