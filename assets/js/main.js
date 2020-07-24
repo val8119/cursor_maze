@@ -21,7 +21,7 @@ retryButton.addEventListener("click", retryMaze);
 // functions
 function logMouseMove(e) {
     e = event || window.event;
-    console.log(event.target)
+    // console.log(event.target)
     if (event.target.parentElement == wallCont && isPlaying || event.target == body && isPlaying) {
         console.log("hit wall");
         retryCont.style.display = "block";
