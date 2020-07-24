@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     outline: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -9,6 +10,24 @@ body {
     background: linear-gradient(65deg, rgb(0, 143, 168) 0%, rgb(0, 161, 91) 100%);
     height: 100vh;
     overflow: hidden;
+}
+
+button {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 2px;
+    border-style: none;
+    font-size: 12px;
+    transition: 0.3s all ease;
+}
+
+button:hover {
+    cursor: pointer;
+    font-size: 14px;
 }
 
 .container {
@@ -24,7 +43,53 @@ body {
     border-style: solid;
 }
 
+/* VV START VV */
+
+.play-cont {
+    /* TESTING */
+    /* display: none; */
+    /* TESTING */
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 999;
+}
+
+.play {
+    background-color: green;
+}
+
+/* VV RETRY VV */
+
+.retry-cont {
+    display: none;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 999;
+}
+
+.retry {
+    background-color: rgb(177, 13, 13);
+}
+
+/* VV FINISH VV */
+
+.finish {
+    display: none;
+    background-color: rgb(31, 69, 238);
+    left: 95%;
+    top: 95%;
+}
+
 /* VV WALLS VV */
+
 .maze-walls div {
     position: absolute;
 }
@@ -60,50 +125,25 @@ body {
     top: 50px;
 }
 
-/* VV START VV */
-
-.play-cont {
-    /* display: none; */
-
-    background-color: rgba(0, 0, 0, 0.75);
-    width: 500px;
-    height: 500px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    z-index: 999;
+.wall5 {
+    background-color: black;
+    width: 100px;
+    height: 3px;
+    left: 50px;
+    top: 150px;
 }
 
-.play {
+.wall6 {
+    background-color: black;
+    width: 3px;
+    height: 100px;
+    left: 50px;
+    top: 150px;
+}
+
+.wall7 {
+    background-color: black;
     width: 50px;
-    height: 30px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
-}
-
-/* VV RETRY VV */
-
-.retry-cont {
-    display: none;
-
-    background-color: rgba(158, 0, 0, 0.75);
-    width: 500px;
-    height: 500px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    z-index: 999;
-}
-
-.retry {
-    width: 50px;
-    height: 30px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    height: 3px;
+    top: 300px;
 }
