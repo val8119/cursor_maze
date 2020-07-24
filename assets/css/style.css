@@ -85,7 +85,7 @@ button:hover {
     display: none;
     background-color: rgb(31, 69, 238);
     left: 95%;
-    top: 95%;
+    top: 5%;
 }
 
 /* VV WALLS VV */
@@ -97,53 +97,66 @@ button:hover {
 .wall1 {
     background-color: black;
     width: 3px;
-    height: 100px;
+    height: 450px;
     left: 50px;
 }
 
 .wall2 {
     background-color: black;
-    width: 100px;
-    height: 3px;
-    top: 100px;
-    left: 50px;
+    width: 3px;
+    height: 450px;
+    left: 100px;
+    top: 50px;
 }
 
 .wall3 {
     background-color: black;
     width: 3px;
-    height: 50px;
-    left: 147px;
-    top: 50px;
+    height: 450px;
+    left: 150px;
 }
 
 .wall4 {
     background-color: black;
-    width: 50px;
-    height: 3px;
-    left: 100px;
+    width: 3px;
+    height: 450px;
+    left: 200px;
     top: 50px;
 }
 
 .wall5 {
     background-color: black;
-    width: 100px;
-    height: 3px;
-    left: 50px;
-    top: 150px;
+    width: 3px;
+    height: 450px;
+    left: 250px;
 }
 
 .wall6 {
     background-color: black;
     width: 3px;
-    height: 100px;
-    left: 50px;
-    top: 150px;
+    height: 450px;
+    left: 300px;
+    top: 50px;
 }
 
 .wall7 {
     background-color: black;
-    width: 50px;
-    height: 3px;
-    top: 300px;
+    width: 3px;
+    height: 450px;
+    left: 350px;
+}
+
+.wall8 {
+    background-color: black;
+    width: 3px;
+    height: 450px;
+    left: 400px;
+    top: 50px;
+}
+
+.wall9 {
+    background-color: black;
+    width: 3px;
+    height: 450px;
+    left: 448px;
 }
